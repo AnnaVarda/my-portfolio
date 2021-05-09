@@ -14,46 +14,64 @@
     <script src="https://kit.fontawesome.com/b487d74f4c.js" crossorigin="anonymous"></script>   
 </head>
 <body>
-    <div class="hero">
-          <p>👋Hello, I am</p>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand border border-dark border-5 rounded p-3" href="#">AV</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">  
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="#contact">Contact</a>                       
+            </div>
+           </div>
+        </div>
+  </nav>
+   <div class="hero mt-0">
+          <p>👩‍💻Hello, I am</p>
       <h1>Anna Vardaxoglou</h1>
           <h2 class="mb-5">Front-end developer based in Greece</h2>
           <div>
-              <a href="#" class="btn btn-branding">Contact me</a>
+              <a href="#contact" class="btn btn-branding">Contact me</a>
         </div>	
       </div>
+
           <p class="text-center m-5">Featured Project which my first projects be choice to show</p>
   
           <div class="container">
-              <div class="row mb-5">
+              <div class="row mb-2">
                   <div class="col d-none d-lg-block">
                     <span class="kizomba"> <img src="images/kizomba.PNG" class="img-fluid" alt=""/></span> 
                   </div>
                   <div class="col">
                       <div class="project-description">
                       <h2 class="mb-5">Kizomba Project</h2>
-                      <p class="mb-5">Far far away, behind the word mountains,
-                           far from the countries Vokalia and Consonantia, there live the blind texts.
-                            Separated they live in Bookmarksgrove right at the coast of the Semantics,
-                               a large language ocean. A small river named Duden flows by</p>
-                       <a href="" class="btn btn-branding-outline">Learn more</a>				
+                      <p class="mb-5">Kizomba is a genre of dance and a musical genre originating in Angola in 1984. 
+                          Kizomba means "party" in Kimbundu, a Bantu language spoken by Ambundu in Angola. 
+                          The word kizomba is also used as an umbrella-expression to include several other dance styles
+                           that derived from the original dance (s.a. Urban Kiz, Kizomba Fusion).
+                      </p>
+                       <a href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/146/201/original/finalproject.html?1604778962"
+                        class="btn btn-branding-outline" target="_blank">Learn more</a>				
                       </div>
                   </div>
               </div>
-              <div class="row mb-5">
-              
+
+              <div class="row mb-5">           
                   <div class="col">
                       <div class="project-description">
                       <h2 class="mb-5">Weather App</h2>
-                      <p class="mb-5">Far far away, behind the word mountains,
-                           far from the countries Vokalia and Consonantia, there live the blind texts.
-                            Separated they live in Bookmarksgrove right at the coast of the Semantics,
-                               a large language ocean. A small river named Duden flows by</p>
-                       <a href="" class="btn btn-branding-outline">Learn more</a>				
+                      <p class="mb-5">Real time Weather application created with ReAct as a case study
+                          during the training on SheCodes. Try to find the weather forecast for cities all around the world.
+                          Enjoy it!
+                      </p>
+                       <a href="https://confident-babbage-6c1225.netlify.app/" class="btn btn-branding-outline" target="_blank">Learn more</a>				
                       </div>
                   </div>
-                      <div class="col d-none d-lg-block">
-                      <img src="images/weather.PNG" class="img-fluid" alt=""/>
+                    <div class="col d-none d-lg-block">
+                      <span class="weather"><img src="images/weather.PNG" class="img-fluid" alt=""/></span>
                   </div>
               </div>
               <div class="row">
@@ -62,16 +80,29 @@
                   </div>
                   <div class="col">
                       <div class="project-description">
-                      <h2 class="mb-5">Dictionary Project</h2>
-                      <p class="mb-5">Far far away, behind the word mountains,
-                           far from the countries Vokalia and Consonantia, there live the blind texts.
-                            Separated they live in Bookmarksgrove right at the coast of the Semantics,
-                               a large language ocean. A small river named Duden flows by</p>
-                       <a href="" class="btn btn-branding-outline">Learn more</a>				
+                      <h2 class="mb-5">Portfolio Project</h2>
+                      <p class="mb-5">The introduction project about the way of building a professional portfolio</p>
+                       <a href="https://nervous-ramanujan-7c0c82.netlify.app/" class="btn btn-branding-outline" target="_blank">Learn more</a>				
                       </div>
                   </div>
               </div>
           </div>
+       
+          <div id="contact">
+        <a href="https://www.instagram.com/anna_vardaxoglou/" target="_blank">
+          <i class="fab fa-instagram fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/anna-vardaxoglou-472b7a165/" target="_blank">
+          <i class="fab fa-linkedin-in fa-3x"></i>
+        </a>
+        <a href="mailto:avard17@gmail.com">
+          <i class="far fa-envelope fa-3x"></i>
+        </a>
+          </div>
+         
+         <footer>
+           <p class="footer">This site is coded by Anna Vardaxoglou and is <a href="https://github.com/AnnaVarda" target="_blank">Open-sourced</a></p>
+       </footer>
       </div>
   </body>
   </html>
