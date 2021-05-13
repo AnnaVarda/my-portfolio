@@ -35,6 +35,10 @@ p {
 	color: whitesmoke;
 }
 
+img {
+	width: 60%;
+}
+
 .hero {
 	background: var(--secondary-color);
 	color:whitesmoke;
