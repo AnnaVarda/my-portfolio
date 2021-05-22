@@ -28,6 +28,11 @@ h2 {
 	font-size: 64px;
 }
 
+h4 {
+	color:var(--secondary-color);
+	font-size:48px ;
+}
+
 p {
   	font-weight: normal;
 	font-size: 16px;
@@ -139,7 +144,7 @@ img {
 	h2 {
 		font-size: 44px;
 	}
-
+	
 	.hero {
 		padding: 80px 20px;
 	}
@@ -149,29 +154,38 @@ img {
 		text-align: center;
 	}
 }
-	.fa-instagram {
-		color: whitesmoke;
-		position: relative;
-		left: 400px;
-		top: 50px;
-		
-	}
 
-	.fa-linkedin-in {
-		color: whitesmoke;
-		position: relative;
-		left:700px;
-		top:50px;		
-		
-	}
+footer {
+	margin: 60px 0;
+}
 
-	.fa-envelope {
-		color: whitesmoke;
-		position: relative;
-		left:1000px;
-		top:50px;
-		
-	}
+footer .social-links a {
+	margin: 0 20px;
+	color: whitesmoke;
+	background-color: var(--branding-color);
+	padding: 10px 14px;
+	font-size: 18px;
+	border-radius: 50%;
+	transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+	color:var(--secondary-color);
+	background-color: whitesmoke;
+}
+
+footer .contact-box {
+	background-color: whitesmoke;
+	padding: 30px 120px;
+	border-radius: 10px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+footer .contact-box p {
+	margin: 0;
+}
+	
 
 .footer {
 	text-align: center;
