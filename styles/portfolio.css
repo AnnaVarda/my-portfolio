@@ -147,6 +147,9 @@ a:hover {
 	bottom: -100px;
 }
 
+.work-title {
+	margin: 100px;
+}
 
 @media (max-width: 900px) {
 	h1 {
