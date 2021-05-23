@@ -130,13 +130,23 @@ a:hover {
 	padding: 120px 60px;
 }
 
-.albert {
-	display: block;
-	text-align: right;
+.kizomba {
+	position:relative;
+	bottom: -50px;
+}
+
+.weather {
+	position: relative;
+	bottom: -50px;
 }
 
 .work-title {
 	margin: 100px;
+}
+
+.albert {
+	display: block;
+	text-align: right;
 }
 
 @media (max-width: 900px) {
