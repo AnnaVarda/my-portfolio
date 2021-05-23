@@ -48,10 +48,6 @@ a {
 a:hover {
 	color: var(--branding-color);
 }
- 
-.container {
-	margin: 0px 50px 150px 50px;
-}
 
 .profile-img {
 	width: 60%;
@@ -132,19 +128,6 @@ a:hover {
 
 .project-description {
 	padding: 120px 60px;
-}
-
-.kizomba {
-  position: absolute;
-	width: 560px;
-	height: 560px;
-	left: 85px;
-	top: 1000px;
-}
-
-.weather {
-	position: relative;
-	bottom: -100px;
 }
 
 .work-title {
