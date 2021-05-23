@@ -130,6 +130,11 @@ a:hover {
 	padding: 120px 60px;
 }
 
+.albert {
+	display: block;
+	text-align: right;
+}
+
 .work-title {
 	margin: 100px;
 }
